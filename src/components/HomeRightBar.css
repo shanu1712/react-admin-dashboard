@@ -1,0 +1,153 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.mainHomeRightbar{
+    flex:4;
+    background-color: rgb(224,216,216,0.199);
+    height:100vh;
+
+}
+
+.itemcontainer{
+    display: flex;
+    /* justify-content: space-around;  for checking only where the container box is coming*/ 
+
+   margin: auto;
+   justify-content: center;
+   
+}
+.itemcontainer1{
+    background-color: rgb(255,255,255);
+    width: 390px;
+    height:  20vh;
+    margin-left: 10px;/* for spacing between the boxes */
+   margin-top:10px;
+   border-radius:10px ;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+
+
+}
+
+.taskprogress{
+    text-align: start;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: rgb(76,77,78);
+    font-weight: 600;
+    
+}
+
+.taskcounter{
+    text-align: start;
+    font-size: 24px;
+    font-weight: 600;
+    margin-left: 10px;
+    margin-top: 20px;
+    color: #14b652  ;
+}
+
+.currentmonth1{
+    text-align: start; 
+    margin-top: 10px;
+    font-size: 11px;
+    color: rgb(76,77,78);
+    font-weight: 600;
+}
+
+.barchartcontainer{
+    margin-left:190px;
+    margin-top: -100px;
+
+
+}
+
+.subitemcontainer{
+    margin-top: 29px ;
+
+}
+
+.taskcounter1{
+    
+    text-align: start;
+    font-size: 24px;
+    font-weight: 600;
+    margin-left: 10px;
+    margin-top: 20px;
+    color: #057c33  ;
+}
+
+.taskcounter2{
+    
+    text-align: start;
+    font-size: 24px;
+    font-weight: 600;
+    margin-left: 10px;
+    margin-top: 20px;
+    color: #03a140  ;
+
+}
+
+.middletaskchart{
+    width: 95%;
+    background-color: white;
+    margin: auto;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+
+}
+
+.taskvscompleted{
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 24px;
+    
+
+}
+
+.taskcontainer{
+    display: flex;
+    width: 92%;
+    justify-content: center;
+     margin: auto;
+     margin-top: 10px;
+     
+}
+
+.taskchart{
+    flex: 1.6;
+    background-color: white;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+
+}
+
+.taskchart1{
+    flex: 4;
+    background-color: white;
+    height: 10vh;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+
+
+}
+
+
+.tasktext{
+    text-align: start;
+
+}
+
+.tasktext1{
+    /* margin-left: 90px; */
+    text-align: center;
+}
+
+
+.piechartcontainer{
+    display: flex;
+    margin-left: 590px;
+    margin-top: -240px;
+}

@@ -1,0 +1,97 @@
+.mainSidebarContainer{
+    flex:0.8;
+ background-color: white;
+ /* height:100vh; */
+
+
+}
+
+.adminContainer{
+    display: flex;
+    margin-top: 10px;
+}
+.menu{
+    display: flex;  
+    margin-top: 20px;
+    margin-left: 40px;
+    color: rgb(66,71,75);
+}
+
+
+.ulContainer{
+    margin-top: 20px;
+
+}
+.liContainer{
+    display: flex;
+    align-items: center;
+    margin-top: 37px;
+    margin-left: 40px;
+
+}
+
+.adminText{
+    font-size: 20px;
+    margin-left: 80px;
+}
+
+.sidebarIcons{
+    width: 20px;
+    height: 20px;
+    background-color: black ;
+    left: 3px;
+    
+
+}
+
+.dailytaskicon{
+    height: 20px;
+    width: 20px;
+}
+
+.message{
+    height: 20px;
+    width: 20px;
+}
+
+.salary{
+
+    height: 20px;
+    width: 20px;
+}
+
+.settings{
+
+    height: 20px;
+    width: 20px;
+}
+
+.teammembers{
+
+    height: 20px;
+    width: 20px;
+}
+
+.itemnames{
+    margin-left: 10px;
+color: rgb(70, 80, 90);
+}
+
+.scheduledheading{
+    margin-top: 20px;
+    font-size: 14px;
+color: rgb(250, 250, 250);
+    margin-left: 40px;
+}
+.scheduledcontainer{
+    display: flex;
+    margin-left:30px;
+    padding:10px;
+    background-color: rgb(240, 248, 255);
+border-radius: 10px;
+margin-top: 10px;
+}
+
+.mainscheduledcontainer{
+    margin-top: 80px;
+}
